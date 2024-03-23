@@ -78,3 +78,15 @@ then use it by calling `Dragula` directly.
 
 Visit Dragula repository on github for more information
 [https://github.com/bevacqua/dragula](https://github.com/bevacqua/dragula)
+
+
+
+## Changes to npm packages for 2024:
+
+The npm version used to run this app was outdated. Running `npm start` wouldn't work.
+Updated npm packages in the following way:
+
+`npm update`
+`npm audit fix --force`
+AND THEN
+`npm start`
